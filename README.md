@@ -1,50 +1,61 @@
-# Welcome to your Expo app 👋
+# Aplicación de Entretenimiento Educativa 🎓🎮
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Esta aplicación fue creada por **Benjamín Garrido** con el propósito de ofrecer una herramienta de entretenimiento educativa para estudiantes interesados en aprender de una manera divertida e interactiva. 🚀
 
-## Get started
+---
 
-1. Install dependencies
+## 📋 Acerca de
+
+La aplicación está diseñada para:
+- **Educar y entretener** a los usuarios mediante dinámicas interactivas.
+- Fomentar el aprendizaje de manera divertida a través de preguntas y desafíos.
+- Ayudar a los estudiantes a adquirir conocimientos mientras juegan.
+
+---
+
+## ✨ Funcionalidades
+
+- **Pantalla de inicio**:
+  - Muestra una **ruleta de colores** interactiva para seleccionar diferentes tipos de preguntas.
+  
+- **Pantalla de preguntas**:
+  - Una vez seleccionada una pregunta, se muestra:
+    - La pregunta y opciones de respuesta.
+    - Sistema de **vidas y puntos** que incentivan el progreso del usuario.
+
+- **Pantalla personal**:
+  - Espacio personalizado para el usuario con características adicionales (en desarrollo).
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Framework principal**: React Native con Expo Go.
+- **Navegación**: Expo Router.
+- **Estilo visual**:
+  - `react-native-vector-icons` para los íconos.
+  - `expo-linear-gradient` para crear fondos degradados.
+- **Estructura y diseño**:
+  - Estilos modulares con un archivo dedicado (`aboutStyles`).
+
+---
+
+## 🚀 Instalación y configuración
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/Cripster21/preguntados_App.git
+   cd tu-repositorio
+
+
+2. Instalar dependencias
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Iniciar la Aplicacion
 
    ```bash
     npx expo start
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
